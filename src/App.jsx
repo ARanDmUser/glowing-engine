@@ -67,7 +67,8 @@ function App() {
       </main>
 
       <section>
-        <a href="src/VenkatSai.pdf" download="venkatsResume.pdf">
+    
+          <a href="src/VenkatSai.pdf" download="venkatsResume.pdf" target="_blank" rel="noopener noreferrer">
           <button className={`btn ${btnInView ? 'visible' : ''}`} ref={btnRef}>
             Resume
           </button>
